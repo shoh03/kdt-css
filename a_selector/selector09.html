@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자식 선택자(nth-child)</title>
+    <style>
+        /* .items .item:first-child {
+            color: orange;
+        } */
+
+        /* .items .item:last-child {
+            color: orange;
+        } */
+
+        /* .items .item:nth-child(5) {
+            color: orange;
+        } */
+
+        /* 처음부터 5번까지 */
+        /* .items .item:nth-child(-n + 5) {
+            color: red;
+        } */
+
+        /* 5번부터 끝까지 */
+        /* .items .item:nth-child(n + 5) {
+            color: red;
+        } */
+        
+        /* 홀수번째 */
+        .items .item:nth-child(2n + 1) {
+            color: red;
+        }
+
+        /* 3번부터 6번까지 */
+        .items .item:nth-child(n + 3):nth-child(-n + 6) {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- ul.items>li.item*8{items의 $번 째 자식} -->
+    <ul class="items">
+        <li class="item">items의 1번 째 자식</li>
+        <li class="item">items의 2번 째 자식</li>
+        <li class="item">items의 3번 째 자식</li>
+        <li class="item">items의 4번 째 자식</li>
+        <li class="item">items의 5번 째 자식</li>
+        <li class="item">items의 6번 째 자식</li>
+        <li class="item">items의 7번 째 자식</li>
+        <li class="item">items의 8번 째 자식</li>
+    </ul>
+</body>
+</html>

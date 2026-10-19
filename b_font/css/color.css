@@ -1,0 +1,8 @@
+.rgb {
+    color: rgb(0, 0, 255);
+}
+
+.hex {
+    /* color: #00F; 16진수 */
+    color: #0000FF;
+}

@@ -1,0 +1,27 @@
+p {
+    /* 자간은 좀 더 줄이는 게 좋음 */
+    letter-spacing: -2px;
+    /* 보통 글자 크기의 1.3배 */
+    line-height: 1.3;
+}
+
+.oasis {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.out-of-time {
+    letter-spacing: 0;
+}
+
+.under-line {
+    color: green;
+    text-decoration: underline;
+}
+
+.line-through {
+    color: purple;
+    text-decoration: line-through;
+}
