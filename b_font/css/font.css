@@ -10,6 +10,14 @@ p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    /* 
+        절대 크기: px
+        상대 크기: %, w, h, em, rem, ...
+            - 부모를 기준: %, w, h, vw, vh, dvw, dvh, em, ...
+            - HTML 기준(16px): rem
+            - 브라우저 기준: vw, vh, dvw, dvh
+    */
+    font-size: 30px;
 }
 
 .out-of-time {

@@ -47,5 +47,6 @@ $RECYCLE.BIN/
 *.lnk
 
 b_font/assets
+c-flex/image
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows

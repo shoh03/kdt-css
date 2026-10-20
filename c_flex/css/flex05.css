@@ -1,0 +1,221 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1324px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 1280px;
+    height: 49px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px darkgray;
+}
+
+.tokdeal-logo {
+    display: flex;
+    width: 80px;
+    height: 22px;
+}
+
+.imoge {
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+}
+
+.img {
+    display: flex;
+    padding: 7px;
+    width: 24px;
+    height: 24px;
+}
+
+.login {
+    display: flex;
+    height: 53.58px;
+    width: 53.98px;
+    justify-content: right;
+    align-items: center;
+}
+
+.login-let {
+    display: flex;
+    height: 39.58px;
+    width: 53.98px;
+    justify-content: right;
+    align-items: center;
+    color: black;
+}
+
+.kakao-intro {
+    display: flex;
+    flex-direction: column;
+    width: 1322.96px;
+    height: 102.19px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kakao-logo {
+    display: flex;
+    width: 179.9px;
+    height: 21.23px;
+}
+
+.store-info {
+    display: flex;
+    width: 78.96px;
+    height: 16px;
+    font-size: 12px;
+}
+
+.store-info-link {
+    color: gray;
+}
+
+.tag-list-search {
+    display: flex;
+    width: 1280px;
+    height: 48px;
+    border-bottom: solid 1px darkgray;
+    justify-content: space-between;
+}
+
+.tag-list {
+    display: flex;
+    
+}
+
+.tag {
+    display: flex;
+    padding-left: 35px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    justify-content: right;
+    align-items: start;
+}
+
+.search-input {
+    display: flex;
+    width: 170px;
+    height: 33.99px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon > a > img {
+    display: flex;
+    width: 22px;
+    height: 22px;
+}
+
+.banner-big-container {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-container {
+    display: flex;
+    width: 1280px;
+    height: 420px;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    width: 1280px;
+    height: 420px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-text {
+    display: flex;
+    width: 100%;
+    height: 54px;
+    align-items: center;
+}
+
+.new-text-text {
+    font-size: 20px;
+}
+
+.new-products-list {
+    display: flex;
+
+}
+
+.new-product-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.new-product-image {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.new-product-name > span {
+    display: flex;
+    font-size: 15px;
+}
+
+.new-product-origin-price {
+    display: flex;
+    font-size: 12px;
+}
+
+.new-product-discount {
+    display: flex;
+}
+
+.new-product-discount > span {
+    display: flex;
+    font-size: 17px;
+}
+
+.new-product-delivery-date {
+    display: flex;
+    font-size: 12px;
+}
+
+.new-product-delivery-price {
+    display: flex;
+    font-size: 11px;
+}
+
+.new-product-delivery-price > span {
+    display: flex;
+    background-color: darkgray;
+}
+
+.new-product-delivery-price > img {
+    display: flex;
+    background-color: darkgray;
+}
+

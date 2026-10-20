@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    gap: 15px;
+    width: 200px;
+    border: solid 4px black;
+    flex-direction: column;
+    padding: 20px;
+    /* margin: 사이트 구석에 딱 붙지 않고 떨어져있도록 만듦 */
+    margin: 100px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}

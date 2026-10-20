@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    gap: 4px;
+    width: 500px;
+    height: 500px;
+    border: solid 3px black;
+    /* flex-direction: row; 
+        -> row(행) 방향이 default
+    */
+    flex-direction: column;
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
